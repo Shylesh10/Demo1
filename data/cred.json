@@ -1,0 +1,6 @@
+{
+    "cred" : [
+        {"userName":"standard_user","passWord":"secret_sauce"}
+    ] 
+}
+
