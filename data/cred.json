@@ -2,8 +2,13 @@
     "cred" : [
         {"userName":"standard_user","passWord":"secret_sauce"}
     ] ,
+
     "lockeduser" : [
         {"userName":"locked_out_user","passWord":"secret_sauce"}
+    ],
+
+    "invalidcred" : [
+        {"userName":"invalid","passWord":"invalid"}
     ]
 }
 
