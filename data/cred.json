@@ -5,10 +5,6 @@
 
     "lockeduser" : [
         {"userName":"locked_out_user","passWord":"secret_sauce"}
-    ],
-
-    "invalidcred" : [
-        {"userName":"invalid","passWord":"invalid"}
     ]
 }
 

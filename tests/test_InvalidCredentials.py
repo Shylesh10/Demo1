@@ -4,7 +4,7 @@ import json
 import pytest
 
 
-with open("data/cred.json") as file:
+with open("data/invalidcred.json") as file:
     test_data = json.load(file)
     user_credentials = test_data['invalidcred']
 
@@ -14,4 +14,5 @@ def test_invalidcredentials(page:Page,login_page:LoginPage,user_cred):
     password = user_cred["passWord"]
     #Login page
     login_page.login(username,password)
+    expect(page.get_by_role("alert")).to_have_text("Epic sadface: Username and password do not match any user in this service")
     

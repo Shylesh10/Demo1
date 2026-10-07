@@ -1,0 +1,10 @@
+{
+    "invalidcred" : [
+        {"userName" : "invalid_user","passWord":"secret_sauce"},
+        {"userName" : "standard_user","passWord":"invalid_password"},
+        {"userName" : " ","passWord":"secret_sauce"},
+        {"userName" : "standard_user","passWord":" "},
+        {"userName" : " ","passWord":" "}
+    ]
+    
+}
