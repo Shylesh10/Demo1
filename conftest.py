@@ -11,6 +11,7 @@ def setup_teardown(page: Page):
     page.goto("https://www.saucedemo.com/")
     yield
     
+    
 @pytest.fixture
 def login_page(page:Page):
     return LoginPage(page)
