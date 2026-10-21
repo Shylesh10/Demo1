@@ -15,3 +15,6 @@ def test_lockeduser(page:Page,login_page : LoginPage,user_cred):
     login_page.login(username,password)
     expect(page.get_by_role("alert")).to_have_text("Epic sadface: Sorry, this user has been locked out.")
     expect(page).to_have_url("https://www.saucedemo.com/")
+
+
+    
